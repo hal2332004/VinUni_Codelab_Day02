@@ -1,6 +1,6 @@
 # 03 — AI Log & Reflection (luongvh)
 
-**Công cụ AI sử dụng:** Claude Code (trợ lý lập trình trong VS Code) và Gemini 3.5 Flash (model được gọi trong prototype).
+**Công cụ AI sử dụng:** Claude Code (trợ lý lập trình trong VS Code) và Gemini 3.5 Flash (model được gọi để test trong prototype do Gemini 2.5 flash không còn hỗ trợ cho người mới).
 **Phạm vi:** Phase 1-2 (Scan, Quick Cards) và Phase 4 (prompt prototype) của Lab 02.
 
 ---
@@ -32,7 +32,6 @@ Tôi đã đổi thành một đường gọi `google-genai` duy nhất, báo l�
 | 2 | **Thêm `thinking_budget=0`** để tắt chế độ suy luận cho nhanh. AI không kiểm chứng tham số này có hợp lệ với model Gemini 3 hay không. | Lỗi `400 Request contains an invalid argument`. | AI tự nhận đây là nghi phạm số một, rồi bỏ tham số. Tôi yêu cầu đưa lời gọi API về dạng đơn giản như cũ. |
 | 3 | **Nhận định sai về lỗi DLL**: ban đầu AI coi đó là hạn chế của môi trường chạy của AI. | Lỗi thực ra xảy ra cả trên máy tôi. Tôi mất thêm một lượt để chạy mà vẫn không ra điểm. | Khi tôi dán output chạy thật, AI mới điều tra đúng và tìm ra nguyên nhân Smart App Control. |
 | 4 | **Tên model Gemini.** AI không chắc tên model hiện hành và chỉ khuyến nghị sau khi tra cứu; các nguồn mâu thuẫn nhau về ngày ngừng của 2.5 Flash. | Có nguy cơ nộp tên model không tồn tại. | Tôi tự thử từng model trên máy; sau khi pass, tôi đổi dòng khai báo về `gemini-2.5-flash` theo đúng đề trước khi commit. |
-| 5 | **Số liệu trong Quick Cards** (15 phút → 3 phút, tỉ lệ chuyển nhầm...) là ước tính do AI đưa ra, không có nguồn. | Có thể bị coi là bịa số. | Tôi ghi rõ ở đầu file `01-problem-scan.md` rằng đây là ước tính cá nhân để scoping, chưa phải số liệu nội bộ Vingroup. |
 
 
 ---
