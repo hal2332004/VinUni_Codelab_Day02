@@ -14,7 +14,6 @@
 | 4 | **Vinmec** | AI có thể tốt hơn | Bác sĩ tự viết tóm tắt hồ sơ xuất viện từ bệnh án, xét nghiệm và ghi chú (~20-30 phút/bệnh nhân). AI trích xuất và soạn bản nháp để bác sĩ sửa và ký duyệt. |
 | 5 | **Vinpearl** | Tốn thời gian | Nhân viên đặt phòng đọc email đặt đoàn từ công ty lữ hành (số phòng, ngày, yêu cầu riêng) rồi tra quỹ phòng và soạn báo giá. AI trích xuất yêu cầu và soạn nháp báo giá, nhân viên duyệt. |
 
-**Ghi chú lens:** #1 và #4 chạm nhiều lens cùng lúc; lens chính được ghi ở cột 3.
 
 ---
 
@@ -118,6 +117,3 @@ Top 3 chọn từ bảng SCAN: **#1 (Xanh SM — khiếu nại cước phí tài
 
 ---
 
-## 🗳️ Đề xuất bài toán cho Deep-Dive của nhóm
-
-**Card #1 (Xanh SM — khiếu nại cước phí tài xế)**, vì dữ liệu chuyến có cấu trúc (tính lại bằng rule được, ít rủi ro bịa số), rủi ro kiểm soát được bằng HITL ở khâu duyệt hoàn tiền. Card #3 (Vinmec) rủi ro y tế cao nên cần nhiều ràng buộc hơn; Card #2 (Vinhomes) có yếu tố pháp lý/phí cần chuyển người.
